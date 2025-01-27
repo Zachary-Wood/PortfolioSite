@@ -1,6 +1,9 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import { MagicButton } from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa'
+
 
 
 const Hero = () => {
@@ -28,14 +31,20 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10 '>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
               <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 -top-10 pt-4'>
-                Portfolio powered by Next,js
+                Portfolio powered by Next.js
               </h2>
               <TextGenerateEffect
               className='text-center text-40px md:text-5xl lg:text-6xl'
               words="Welcome to my portfolio"
               />
+              <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                Hi, I&apos;m Zach a fullstack software engineer with a passion for building web applications 
+              </p>
 
-            </div>
+              <a href='#about'> <MagicButton title="View my projects" icon={<FaLocationArrow/>} position='right'/> </a>
+          </div>
+
+          
         </div>
 
 
