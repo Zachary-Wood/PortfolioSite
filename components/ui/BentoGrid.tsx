@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 
+// this grid is where all of my icon cards go
 export const BentoGrid = ({
   className,
   children,
@@ -73,6 +74,7 @@ export const BentoGridItem = ({
                 className="object-cover object-center w-full h-full"
                 />
             )}
+            
             
           </div>
           {id === 6 && (
