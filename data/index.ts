@@ -148,7 +148,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Full stack Engineer - Egg medical",
-    desc: "Designed and developed a full stack data mangment system for a medical device company.",
+    desc: "Designed and developed a full stack data management system for a medical device company.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
