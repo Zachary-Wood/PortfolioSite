@@ -1,16 +1,16 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { testimonials } from '@/data'
-import { companies } from '@/data/index.ts'
+import { companies } from '@/data/index'
 
 const Clients = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="testimonials">
         <h1 className="heading pb-16">
         Testimonials from people I have{" "}
           <span className="text-purple">worked with</span>
         </h1>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center max-lg:mt-10">
               <div className='h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
               <InfiniteMovingCards
               items={testimonials}
