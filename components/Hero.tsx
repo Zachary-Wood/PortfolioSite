@@ -38,7 +38,7 @@ const Hero = () => {
               words="Welcome to my portfolio"
               />
               <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                Hi, I&apos;m Zach a fullstack software engineer with a passion for building web applications 
+                Hi, I&apos;m Zach a fullstack software engineer with a passion for frontend development
               </p>
 
               <a href='#about'> <MagicButton title="View my projects" icon={<FaLocationArrow/>} position='right'/> </a>
