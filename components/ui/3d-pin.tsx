@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils";
 
 export const PinContainer = ({
   children,
-  title,
   href,
   className,
   containerClassName,
@@ -60,8 +59,7 @@ export const PinContainer = ({
 };
 
 export const PinPerspective = ({
-  title,
-  href,
+
 }: {
   title?: string;
   href?: string;
