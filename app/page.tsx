@@ -10,8 +10,19 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 
-// this sets up the page to be a client component
+import { useEffect, useState } from 'react';
+
 const Home = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null; 
+  }
+
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
@@ -22,8 +33,6 @@ const Home = () => {
         <Clients />
         <Experience />
         <Footer />
-
-
       </div>
     </main>
   );
