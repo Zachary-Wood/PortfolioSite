@@ -69,8 +69,8 @@ const RecentProjects = () => {
                       <Image
                         src={icon}
                         alt={`icon-${index}`}
-                        width={20}
-                        height={20}
+                        width={50}
+                        height={50}
                         className="p-2"
                         unoptimized
                       />
