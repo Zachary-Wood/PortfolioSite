@@ -6,8 +6,13 @@ const nextConfig: NextConfig = {
   output: "export",
   typescript: {
     ignoreBuildErrors: true,
-  }
-};
+  },
+  images: {
+    unoptimized: true, 
+  },
+}
+
+
 
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
@@ -40,3 +45,4 @@ disableLogger: true,
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
 });
+
