@@ -22,7 +22,7 @@ const Clients = () => {
               />
               </div>
 
-              <h1 className="heading pb-16">
+              <h1 className="heading pb-16 pt-20">
                   Companies I have{" "}
                   <span className="text-purple">worked with</span>
                 </h1>
