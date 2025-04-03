@@ -1,5 +1,11 @@
-import { Hero, Grid, Clients, RecentProjects, FloatingNav, Experience, Footer } from '@/components/ClientComponents';
+"use client";
+import { Hero, Grid, Clients, RecentProjects, Experience, Footer } from '@/components/ClientComponents';
 import { navItems } from "@/data";
+
+
+
+
+import FloatingNav from '@/components/ui/FloatingNav';
 
 const Home = () => {
   return (
