@@ -12,7 +12,7 @@ const Footer = () => {
           I am ready to contribute to<span className="text-purple"> your team</span>
         </h1>
         <p className="text-white md:mt-10 my-5 text-center">
-          Feel free to reach out, I would love to discuss how my skills and experience align with your company’s culture and goals!
+          Feel free to reach out! I would love to discuss how my skills and experience align with your company’s culture and goals.
         </p>
         <a href="mailto:zacharydavdevelops@gmail.com">
           <MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />

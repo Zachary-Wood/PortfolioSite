@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I take pride in my work and always am striving to improve.",
+    title: "I take pride in my work, and always strive to improve.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I have built full stack applications used around the world",
+    title: "I have built large scale full stack applications used globally",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "my tech stack",
+    description: "I constantly strive to strengthen",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I'm an eager and motivated graduate looking to launch my career in tech and make a meaningful impact.",
+    title: "I'm an eager and motivated software engineer looking for the next step in my career.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building full stack budgeting app",
+    title: "Currently building a full stack budgeting app",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,15 +73,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Zike a ecommerce app",
-    des: "Zike is a nike clone built to inspire and motivate people to get in shape.",
+    title: "Zike, a mock ecommerce app",
+    des: "Zike is a Nike clone built to inspire and motivate people to get in shape.",
     img: "/zike.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://zike.onrender.com/",
   },
   {
     id: 2,
-    title: "Biostrive a company website",
+    title: "BioStrive, a company homepage",
     des: "A website built to showcase the company and goals to improve the med tech space.",
     img: "/biostrive.png",
     iconLists: ["/re.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -102,7 +102,7 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Biostrive",
+    name: "BioStrive",
     nameImg: "/biostrivelogo.png",
   },
   {
@@ -117,13 +117,13 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer - Biostrive",
-    desc: "Contributed in the development of a company website using React",
+    desc: "Contributed in the development of a company website using React.js.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Full stack Engineer - Egg medical",
+    title: "Full Stack Engineer - Egg Medical",
     desc: "Designed and developed a full stack data management system for a medical device company.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
