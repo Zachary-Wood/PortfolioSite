@@ -87,6 +87,14 @@ export const projects = [
     iconLists: ["/re.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.biostrive.org/",
   },
+  {
+    id: 3,
+    title: "A pixel perfect UI clone of the apple website",
+    des: "A pixel perfect UI clone of the apple website used to show my skills with react and tailwind css.",
+    img: "/apple.png",
+    iconLists: ["/ts.svg", "/tail.svg"],
+    link: "https://zachs-apple-ui-clone.onrender.com/",
+  }
 
 ];
 
