@@ -70,6 +70,7 @@ export const gridItems = [
   },
 ];
 
+// heres the projects
 export const projects = [
   {
     id: 1,
